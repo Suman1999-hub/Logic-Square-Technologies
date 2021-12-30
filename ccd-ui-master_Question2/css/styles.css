@@ -1,0 +1,233 @@
+body {
+  padding: 0px;
+  margin: 0px; }
+
+#header-wrapper {
+  padding: 60px 0px;
+  min-height: 30vh;
+  background-color: #006ADA; }
+
+#header {
+  text-align: center;
+  color: white; }
+
+#search-wrapper {
+  margin-top: 40px;
+  text-align: center; }
+  #search-wrapper input {
+    text-align: center;
+    font-size: 22px;
+    height: 40px;
+    width: 70%;
+    border: none;
+    border-radius: 20px; }
+  #search-wrapper ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #c2c2c2;
+    opacity: 1;
+    /* Firefox */ }
+  #search-wrapper :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #c2c2c2; }
+  #search-wrapper ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #c2c2c2; }
+
+#table-wrapper {
+  margin-top: 50px;
+  padding-bottom: 100px;
+  /*//////////////////////////////////////////////////////////////////
+  [ RESTYLE TAG ]*/
+  /* ------------------------------------ */
+  /* ------------------------------------ */
+  /* ------------------------------------ */
+  /* ------------------------------------ */
+  /*//////////////////////////////////////////////////////////////////
+  [ Utiliti ]*/
+  /*//////////////////////////////////////////////////////////////////
+  [ Table ]*/ }
+
+@font-face {
+  #table-wrapper {
+    font-family: OpenSans-Regular;
+    src: url("../fonts/OpenSans/OpenSans-Regular.ttf"); } }
+  #table-wrapper * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; }
+  #table-wrapper body, #table-wrapper html {
+    height: 100%;
+    font-family: sans-serif; }
+  #table-wrapper a {
+    margin: 0px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s; }
+  #table-wrapper a:focus {
+    outline: none !important; }
+  #table-wrapper a:hover {
+    text-decoration: none; }
+  #table-wrapper h1, #table-wrapper h2, #table-wrapper h3, #table-wrapper h4, #table-wrapper h5, #table-wrapper h6 {
+    margin: 0px; }
+  #table-wrapper p {
+    margin: 0px; }
+  #table-wrapper ul, #table-wrapper li {
+    margin: 0px;
+    list-style-type: none; }
+  #table-wrapper input {
+    display: block;
+    outline: none;
+    border: none !important; }
+  #table-wrapper textarea {
+    display: block;
+    outline: none; }
+  #table-wrapper textarea:focus, #table-wrapper input:focus {
+    border-color: transparent !important; }
+  #table-wrapper button {
+    outline: none !important;
+    border: none;
+    background: transparent; }
+  #table-wrapper button:hover {
+    cursor: pointer; }
+  #table-wrapper iframe {
+    border: none !important; }
+  #table-wrapper .limiter {
+    width: 100%;
+    margin: 0 auto; }
+  #table-wrapper .container-table100 {
+    width: 100%;
+    min-height: 100vh;
+    background: #c850c0;
+    background: -webkit-linear-gradient(45deg, #4158d0, #c850c0);
+    background: -o-linear-gradient(45deg, #4158d0, #c850c0);
+    background: -moz-linear-gradient(45deg, #4158d0, #c850c0);
+    background: linear-gradient(45deg, #4158d0, #c850c0);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 33px 30px; }
+  #table-wrapper .wrap-table100 {
+    width: 1170px; }
+  #table-wrapper table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: relative; }
+  #table-wrapper table * {
+    position: relative; }
+  #table-wrapper table td, #table-wrapper table th {
+    padding-left: 8px; }
+  #table-wrapper table thead tr {
+    height: 60px;
+    background: #36304a; }
+  #table-wrapper table tbody tr {
+    height: 50px; }
+  #table-wrapper table tbody tr:last-child {
+    border: 0; }
+  #table-wrapper table td, #table-wrapper table th {
+    text-align: left; }
+  #table-wrapper table td.l, #table-wrapper table th.l {
+    text-align: right; }
+  #table-wrapper table td.c, #table-wrapper table th.c {
+    text-align: center; }
+  #table-wrapper table td.r, #table-wrapper table th.r {
+    text-align: center; }
+  #table-wrapper .table100-head th {
+    font-family: OpenSans-Regular;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: unset; }
+  #table-wrapper tbody tr:nth-child(even) {
+    background-color: #f5f5f5; }
+  #table-wrapper tbody tr {
+    font-family: OpenSans-Regular;
+    font-size: 15px;
+    color: #808080;
+    line-height: 1.2;
+    font-weight: unset; }
+  #table-wrapper tbody tr:hover {
+    color: #555555;
+    background-color: #f5f5f5;
+    cursor: pointer; }
+  #table-wrapper .column1 {
+    width: 260px;
+    padding-left: 40px; }
+  #table-wrapper .column2 {
+    width: 160px; }
+  #table-wrapper .column3 {
+    width: 245px; }
+  #table-wrapper .column4 {
+    width: 110px;
+    text-align: right; }
+  #table-wrapper .column5 {
+    width: 170px;
+    text-align: right; }
+  #table-wrapper .column6 {
+    width: 222px;
+    text-align: right;
+    padding-right: 62px; }
+  @media screen and (max-width: 992px) {
+    #table-wrapper table {
+      display: block; }
+    #table-wrapper table > *, #table-wrapper table tr, #table-wrapper table td, #table-wrapper table th {
+      display: block; }
+    #table-wrapper table thead {
+      display: none; }
+    #table-wrapper table tbody tr {
+      height: auto;
+      padding: 37px 0; }
+    #table-wrapper table tbody tr td {
+      padding-left: 40% !important;
+      margin-bottom: 24px; }
+    #table-wrapper table tbody tr td:last-child {
+      margin-bottom: 0; }
+    #table-wrapper table tbody tr td:before {
+      font-family: OpenSans-Regular;
+      font-size: 14px;
+      color: #999999;
+      line-height: 1.2;
+      font-weight: unset;
+      position: absolute;
+      width: 40%;
+      left: 30px;
+      top: 0; }
+    #table-wrapper table tbody tr td:nth-child(1):before {
+      content: "Date"; }
+    #table-wrapper table tbody tr td:nth-child(2):before {
+      content: "Order ID"; }
+    #table-wrapper table tbody tr td:nth-child(3):before {
+      content: "Name"; }
+    #table-wrapper table tbody tr td:nth-child(4):before {
+      content: "Price"; }
+    #table-wrapper table tbody tr td:nth-child(5):before {
+      content: "Quantity"; }
+    #table-wrapper table tbody tr td:nth-child(6):before {
+      content: "Total"; }
+    #table-wrapper .column4,
+    #table-wrapper .column5,
+    #table-wrapper .column6 {
+      text-align: left; }
+    #table-wrapper .column4,
+    #table-wrapper .column5,
+    #table-wrapper .column6,
+    #table-wrapper .column1,
+    #table-wrapper .column2,
+    #table-wrapper .column3 {
+      width: 100%; }
+    #table-wrapper tbody tr {
+      font-size: 14px; } }
+  @media (max-width: 576px) {
+    #table-wrapper .container-table100 {
+      padding-left: 15px;
+      padding-right: 15px; } }
